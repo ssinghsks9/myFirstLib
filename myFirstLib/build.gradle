@@ -24,12 +24,14 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+
+    implementation 'io.reactivex:rxjava:1.3.8'
 }
 
 ext {
 
     //For bintray and jcenter distribution
-    bintrayRepo = 'maven'
+    bintrayRepo = 'MyFirstLib'
     bintrayName = 'MyFirstLib'
 
     publishedGroupId = 'com.my.mylib'
@@ -43,10 +45,10 @@ ext {
 
     libraryVersion = '1.0.0'
 
-    developerId = 'your_id'
-    developerName = 'your_name'
-    developerEmail = 'your_email'
-    organization = 'your_organization' // if you push to organization's repository.
+    developerId = 'sandeepsks9'
+    developerName = 'sandeep'
+    developerEmail = 'sandeepincedo@gmail.com'
+    organization = 'sandeepsks9'
     licenseName = 'The Apache Software License, Version 2.0'  //Example for license
     licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
     allLicenses = ["Apache-2.0"]
